@@ -78,6 +78,9 @@
       logOut() {
         this.$store.dispatch('auth/logout');
         this.$router.push('/login');
+      },
+      testGit() {
+        console.log("first dev commit")
       }
     }
   };
