@@ -81,6 +81,9 @@
       },
       testGit() {
         console.log("first dev commit")
+      },
+      testMaster() {
+        console.log("first master commit")
       }
     }
   };
